@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+.navbar{
+    display: flex;
+    width: 90%;  
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;  
+    justify-content: left;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 55%;
+    color: white;
+    text-align: center;
+}
+.content h1{
+    font-size: 65px;
+}
+button{
+    width: 350px;
+    padding: 15px 0;
+    border-radius: 35px;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    color: green;
+    font-size: 17px;
+    font-weight: 600;
+}
+button:hover{
+    color: black;
+    font-size: 20px;
+    height: 60px;
+    width: 410px;
+    transition: 0.5s;
+    color: darkred;
+    transition: 2s;
+}
+.navbar:hover{
+    font-size: 23px;
+    transition: 0.5s;
+}
+h1 {
+    text-shadow: 2px 2px rgb(8, 0, 0);
+  }
+  .baslik{
+    top: 50%;
+  }
+  .yazi{
+    display: flex;
+    width: 89%;  
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;  
+    justify-content: left;
+  }
